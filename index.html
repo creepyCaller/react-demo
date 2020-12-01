@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>React Demo</title>
+    <!-- import 'xxx/xxx' -->
+    <script src="node_modules/react/umd/react.development.js"></script>
+    <script src="node_modules/react-dom/umd/react-dom.development.js"></script>
+    <script src="node_modules/babel-standalone/babel.js"></script>
+    <script src="node_modules/prop-types/prop-types.js"></script>
+    <!-- 挂载之后css会自动渲染 -->
+    <style>
+        .demo {
+            color: red;
+        }
+    </style>
+    </head>
+    <body>
+        <!-- dom根节点,一个页面需要有一个根节点,这个根节点下的内容会被React管理,一般一个页面一个就够了 -->
+        <div id="demoReact">
+            <!-- React会把节点挂载到这下面 -->
+        </div>
+
+<!--        <script src="myDom.js" type="text/babel"></script>-->
+<!--        <script src="travel.js" type="text/babel"></script>-->
+<!--        <script src="components.js" type="text/babel"></script>-->
+<!--        <script src="props.js" type="text/babel"></script>-->
+<!--        <script src="state.js" type="text/babel"></script>-->
+<!--        <script src="refs.js" type="text/babel"></script>-->
+<!--        <script src="event.js" type="text/babel"></script>-->
+        <script src="conditionRender.js" type="text/babel"></script>
+    </body>
+</html>
