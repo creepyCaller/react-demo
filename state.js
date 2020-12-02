@@ -34,7 +34,9 @@ class StatefulComponent extends React.Component {
         // 使用this.setState({key: newValue, ...})进行状态更改,注意这是个异步方法,React会自动触发render进行数据渲染
         // 如果想要状态更改后做某些操作,则需要setState执行完之后的异步函数,箭头函数会自动绑定this
         // 如果需要插入HTML字符串并渲染,就是用: dangerousSetInnerHTML={{__HTML: 需要插入的HTML字符串}}
-        this.setState({msg: (new Date()).toISOString()},() => {
+        this.setState({
+            msg: (new Date()).toISOString()
+        },() => {
             console.log('set to ' + this.state.msg);
         });
     }
