@@ -11,9 +11,12 @@ function App() {
     );
 }
 
-// https://fluent-windows.com/getting-started/installation
+// https://fluent-windows.com/zh/getting-started/installation
 // https://codesandbox.io/s
 // material-ui
 // https://evergreen.segment.com/components/
 // https://react.geist-ui.dev/zh-cn/guide/introduction
+// https://developer.microsoft.com/zh-cn/fluentui#/get-started/web
+// https://preview.tabler.io/
+// https://www.gatsbyjs.cn/docs/
 ReactDOM.render(<App />, document.querySelector("#root"));
